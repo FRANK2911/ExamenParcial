@@ -1,0 +1,59 @@
+#descripción{
+    width: 900px;
+    height: 190px;
+    margin-top: 150px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+#titulo{
+    margin-top: 1px;
+    margin-left: 500px;
+    text-align: center;
+    border-radius: 1000px;
+    
+}
+#texto{
+    font-size: medium;
+    color:white;
+}
+body{
+    background-image:url(https://png.pngtree.com/background/20230522/original/pngtree-wallpapers-for-hogwarts-castle-for-fa-picture-image_2697163.jpg)
+}
+#lista{
+    float: left;
+    
+    margin-left: 370px;
+    margin-top: 130px;
+    height: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#lista>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 90px;
+}
+#lista a{
+    padding: 10px;
+    text-decoration: none;
+    color:burlywood;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+#lista a:hover{
+    background-color: dimgrey;
+    color: white;
+    cursor: pointer;
+}
+img{
+    border-radius: 1000px;
+}
